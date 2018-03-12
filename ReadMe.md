@@ -1,4 +1,4 @@
-# Mimicry.ai
+# Rememvo
 
 Copy the voice of anyone using machine learning.
 
@@ -17,7 +17,7 @@ Copy the voice of anyone using machine learning.
 * Setup Virtual environment
 
 ```
-    cd ~/mimicry.ai
+    cd ~/Rememvo
     virtualenv venv
     source venv/bin/activate
 ```
@@ -29,31 +29,31 @@ Copy the voice of anyone using machine learning.
     pip install numpy scipy matplotlib ipython jupyter pandas sympy nose
     pip install theano lxml
 
-    export CFLAGS=-I/home/vagrant/mimicry.ai/venv/lib/python2.7/site-packages/numpy/core/include
+    export CFLAGS=-I/home/vagrant/Rememvo/venv/lib/python2.7/site-packages/numpy/core/include
     pip install bandmat
 ```
 
 * Install dependencies
 
 ```
-    cd ~/mimicry.ai/src/merlin/tools
+    cd ~/Rememvo/src/merlin/tools
     /bin/bash compile_tools.sh
 ```
 
 * Run test (Optional. Not needed)
 
 ```
-    cd ~/mimicry.ai/src/merlin/test
+    cd ~/Rememvo/src/merlin/test
     /bin/bash test_training.sh
 ```
 
 * Run demo
 
 ```
-    cd ~/mimicry.ai
+    cd ~/Rememvo
     source venv/bin/activate
 
-    cd ~/mimicry.ai/src/merlin/egs/slt_arctic/s1
+    cd ~/Rememvo/src/merlin/egs/slt_arctic/s1
     ./run_demo.sh
 ```
 
@@ -91,7 +91,7 @@ youtube-dl --extract-audio --audio-format mp3 https://www.youtube.com/watch?v=4C
 
 * Install dependencies
 
-    cd ~/mimicry.ai
+    cd ~/Rememvo
     source venv/bin/activate
 
     cd server
