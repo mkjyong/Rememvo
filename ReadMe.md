@@ -1,6 +1,7 @@
 # Rememvo
 
 Copy the voice of anyone using machine learning.
+it is from fizerkhan/mimicry.ai
 
 
 ### Vagrant Dependencies
